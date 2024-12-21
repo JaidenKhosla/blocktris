@@ -1,0 +1,20 @@
+.board{
+    justify-self: center;
+    align-self: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    height: min-content;
+    width: min-content;
+}
+
+.cell {
+    width: 4vh;
+    height: 4vh;
+    background-color: red;
+    border: 0.25vh solid white;
+    min-height: 10px;
+    min-width: 10px;
+}
